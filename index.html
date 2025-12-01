@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carta - Primer lunes de vacaciones</title>
+  <style>
+    :root{
+      --bg:#0b0b0f;
+      --card:#0f0f15;
+      --neon:#9b5cff; /* morado neón */
+      --muted:#cfc9df;
+    }
+    html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:linear-gradient(180deg,#050506 0%, #0b0710 100%); color:var(--muted);}
+    .wrap{min-height:100%;display:flex;align-items:center;justify-content:center;padding:28px}
+    .card{width:100%;max-width:720px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:16px;padding:28px;box-shadow:0 8px 30px rgba(0,0,0,0.6);border:1px solid rgba(155,92,255,0.12);}
+    .neon-title{font-size:20px;color:var(--neon);text-shadow:0 0 12px rgba(155,92,255,0.28), 0 0 30px rgba(155,92,255,0.12);font-weight:700;margin:0 0 8px}
+    .subtitle{font-size:13px;color:#bdb3e6;margin:0 0 18px}
+    .body{background:linear-gradient(90deg, rgba(155,92,255,0.02), rgba(155,92,255,0.01));padding:18px;border-radius:12px;border:1px solid rgba(155,92,255,0.06);}
+    p{line-height:1.6;margin:12px 0;font-size:16px}
+    .signature{margin-top:18px;font-weight:700;font-size:16px;color:#efe8ff}
+    .emoji{font-size:28px;margin-right:8px}
+    .sticker{display:inline-block;padding:8px 12px;border-radius:999px;background:linear-gradient(90deg, rgba(155,92,255,0.12), rgba(155,92,255,0.06));border:1px solid rgba(255,255,255,0.02);color:var(--neon);font-weight:600}
+    @media (max-width:420px){.card{padding:18px}.neon-title{font-size:18px}.body p{font-size:15px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <article class="card" role="article">
+      <header>
+        <h1 class="neon-title">Primer lunes de vacaciones — Carta</h1>
+        <div class="subtitle">Un mensaje pequeño pero sentido para ella</div>
+      </header>
+
+      <section class="body">
+        <p><span class="emoji">💌</span><span class="sticker">Para mi Valeria Isabel</span></p>
+
+        <p><strong>Mi amor,</strong></p>
+
+        <p>Hoy es el primer lunes de estas vacaciones… y también el primero sin poder verte. Y no te voy a mentir: se siente raro, se siente vacío, como si al día le faltara su parte más bonita: <strong>tú</strong>.</p>
+
+        <p>Estoy aquí pensando en lo mucho que me hacía bien verte aunque fuera un ratico, en cómo tu voz le daba vida a mis días, en cómo tu presencia lo acomodaba todo. Ahora que no estás cerquita, siento la falta de cada detalle tuyo… tu risa, tus miradas, ese abrazo que siempre me calma.</p>
+
+        <p><em>Me haces falta, y no solo un poquito… <strong>me haces falta en serio</strong>.</em></p>
+
+        <p>Sé que son vacaciones, sé que toca aguantarnos un tiempo sin vernos, pero aun así no cambia lo que siento: te pienso a cada rato, te extraño desde que me despierto y te quiero más de lo que estas palabras pueden decir.</p>
+
+        <p>Ojalá el tiempo pase rápido… o mejor dicho, que pase lo suficiente hasta que pueda verte otra vez y llenarme de ti como siempre. Hasta entonces, mi amor, aquí estoy… extrañándote, queriéndote y guardándote en cada pensamiento.</p>
+
+        <p class="signature">Te extraño muchísimo.<br>Con todo mi corazón,<br><strong>Juan</strong> <span class="emoji">💜✨</span></p>
+      </section>
+
+      <footer style="margin-top:14px;font-size:12px;color:#b9aee8;opacity:0.9">P. D. — Guarda esto para cuando la extrañes aún más.</footer>
+    </article>
+  </div>
+</body>
+</html>
